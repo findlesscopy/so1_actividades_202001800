@@ -1,0 +1,10 @@
+[Unit]
+Description=202001800 Tarea3
+
+[Service]
+User=jmaibarra
+ExecStart=/usr/local/bin/tarea3.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
